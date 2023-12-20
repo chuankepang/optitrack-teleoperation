@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+      <node name="cafe_table" pkg="gazebo_ros" type="spawn_model"
+        args="-file $(find arm_move)/model/cafe_table/model.sdf -sdf -model cafe_table -x 0.830313 -y 0.00233 -z 0.023381" />
+
+      <node name="base" pkg="gazebo_ros" type="spawn_model"
+        args="-file $(find arm_move)/model/base/model.sdf -sdf -model base -x 0 -y 0 -z 0.4" />
+
+      <node name="shelf" pkg="gazebo_ros" type="spawn_model"
+        args="-file $(find arm_move)/model/shelf/model.sdf -sdf -model shelf -x 0.6 -y 0 -z 0.998381" />
+
+</launch>

@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/wrs/arm/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/wrs/arm/src/cartesian_controllers/cartesian_compliance_controller/include/**",
+        "/home/wrs/arm/src/cartesian_controllers/cartesian_controller_base/include/**",
+        "/home/wrs/arm/src/cartesian_controllers/cartesian_controller_handles/include/**",
+        "/home/wrs/arm/src/cartesian_controllers/cartesian_force_controller/include/**",
+        "/home/wrs/arm/src/cartesian_controllers/cartesian_motion_controller/include/**",
+        "/home/wrs/arm/src/cartesian_controllers/joint_to_cartesian_controller/include/**",
+        "/home/wrs/arm/src/natnet/include/**",
+        "/home/wrs/arm/src/natnet_ros_cpp/include/**",
+        "/home/wrs/arm/src/planning/include/**",
+        "/home/wrs/arm/src/universal_robot/ur_kinematics/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

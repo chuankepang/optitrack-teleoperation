@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>	
+
+	<!--start server -->
+	<node pkg="arm_move" type="tf_broadcast.py" name= "tf_broadcast"   />
+	<node pkg="arm_move" type="tf_listener.py" name= "tf_listener"   output="screen"/>
+
+</launch>
